@@ -23,5 +23,5 @@ export class ImgComponent implements OnInit {
     this.loaded.emit(this.img);
 
   }
-
+ 
 }
