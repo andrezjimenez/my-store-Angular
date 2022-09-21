@@ -1,6 +1,10 @@
 <p>img works!</p>
 
-<img width="200" (load)="imgLoaded()" (error)="imgError()" [src]="img" alt="" *ngIf="img; else elseImg">
+<!-- <hr>
+<h3>{{ counter}}</h3>
+<hr> -->
+
+<img  (load)="imgLoaded()" (error)="imgError()" [src]="img" alt="" *ngIf="img; else elseImg">
 <ng-template #elseImg>
     <img [src]="imgDefault" alt="">
 </ng-template>
