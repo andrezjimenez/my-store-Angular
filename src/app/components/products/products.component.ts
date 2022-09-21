@@ -32,6 +32,12 @@ export class ProductsComponent implements OnInit {
       name: 'Product 1',
       image : '../../../assets/images/product.png',
       price : 100
+    },
+    {
+      id: '4',
+      name: 'Product 1',
+      image : '../../../assets/images/product.png',
+      price : 100
     }
 
   ];  
