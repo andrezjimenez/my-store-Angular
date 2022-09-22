@@ -8,6 +8,9 @@ import { Product } from '../../Models/product.model';
 })
 export class ProductsComponent implements OnInit {
 
+  myshoppingCar : Product[] = [];
+  total = 0;
+
   products: Product[] = [
     {
       id: '1',
@@ -45,6 +48,11 @@ export class ProductsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+  onAddToShoppingCar(product: Product){
+    console.log(product);
+    this.myshoppingCar.push(product);
+    this.total = this.myshoppingCar.reduce((sum, item)=> sum + item.price,0);
   }
 
 }
