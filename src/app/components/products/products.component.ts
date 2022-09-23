@@ -16,36 +16,46 @@ export class ProductsComponent implements OnInit {
   date = new Date(2021,1,21);
 
   products: Product[] = [
-    // {
-    //   id: '1',
-    //   name: 'Product 1',
-    //   image : '../../../assets/images/product.png',
-    //   price : 100
-    // },
-    // {
-    //   id: '2',
-    //   name: 'Product 1',
-    //   image : '../../../assets/images/product.png',
-    //   price : 100
-    // },
-    // {
-    //   id: '3',
-    //   name: 'Product 1',
-    //   image : '../../../assets/images/product.png',
-    //   price : 100
-    // },
-    // {
-    //   id: '4',
-    //   name: 'Product 1',
-    //   image : '../../../assets/images/product.png',
-    //   price : 100
-    // },
-    // {
-    //   id: '4',
-    //   name: 'Product 1',
-    //   image : '../../../assets/images/product.png',
-    //   price : 100
-    // }
+    {
+      id: '1',
+      title: 'Product 1',
+      image : '../../../assets/images/product.png',
+      price : 100,
+      description: '',
+      category:''
+    },
+    {
+      id: '2',
+      title: 'Product 1',
+      image : '../../../assets/images/product.png',
+      price : 100,
+      description: '',
+      category:''
+    },
+    {
+      id: '3',
+      title: 'Product 1',
+      image : '../../../assets/images/product.png',
+      price : 100,
+      description: '',
+      category:''
+    },
+    {
+      id: '4',
+      title: 'Product 1',
+      image : '../../../assets/images/product.png',
+      price : 100,
+      description: '',
+      category:''
+    },
+    {
+      id: '4',
+      title: 'Product 1',
+      image : '../../../assets/images/product.png',
+      price : 100,
+      description: '',
+      category:''
+    }
   ];  
 
   constructor(

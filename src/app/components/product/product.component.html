@@ -3,7 +3,8 @@
 
 <app-img [img]="product.image" > </app-img>
 <h2>{{product.price | currency:'COP'}}</h2>
-<p>{{product.title | changecaracter}}</p> 
+<p appHighlight>{{product.title | changecaracter}}</p> 
+<p >{{product.description}}</p>
 <button (click)="addCar()" > Add car </button>
 
 
